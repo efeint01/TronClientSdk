@@ -81,7 +81,7 @@ public class TronWalletManager {
         tronApi = retrofit.create(TronApi.class);
 
         Retrofit hpRetrofit = new Retrofit.Builder()
-                .baseUrl("http://34.231.96.72:8081")
+                .baseUrl("http://54.252.224.209:8091")
                 .addConverterFactory(GsonConverterFactory.create())
                 .addCallAdapterFactory(RxJava2CallAdapterFactory.create())
                 .build();
